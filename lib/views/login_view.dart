@@ -160,7 +160,7 @@ Future<void> _loginWithGoogle() async {
                       borderRadius: BorderRadius.circular(12),
                       borderSide: BorderSide(color: Colors.orange),
                     ),
-                    floatingLabelStyle: TextStyle(color: Colors.orange),
+                    floatingLabelStyle: TextStyle(color: const Color.fromARGB(255, 153, 143, 129)),
                     contentPadding: EdgeInsets.symmetric(vertical: 16),
                   ),
                 ),
